@@ -1,0 +1,21 @@
+{
+  "name": "scalable-table",
+  "description": "Extremely fast native html table.",
+  "main": "index.js",
+  "authors": [
+    "okneigres"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "scalable-table"
+  ],
+  "homepage": "https://github.com/extremeprog-com/scalable-table",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

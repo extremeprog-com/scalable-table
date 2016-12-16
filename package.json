@@ -1,0 +1,22 @@
+{
+  "name": "scalable-table",
+  "version": "1.0.0",
+  "description": "Extremely fast native html table.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/extremeprog-com/scalable-table.git"
+  },
+  "keywords": [
+    "scalable-table"
+  ],
+  "author": "okneigres",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/extremeprog-com/scalable-table/issues"
+  },
+  "homepage": "https://github.com/extremeprog-com/scalable-table#readme"
+}

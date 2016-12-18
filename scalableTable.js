@@ -1,4 +1,5 @@
-calculationEngine.directive('scalableTable', function($compile, $rootScope) {
+angular.module('scalable-table', [])
+    .directive('scalableTable', function($compile, $rootScope) {
 
     var template =
         '<style> ' +

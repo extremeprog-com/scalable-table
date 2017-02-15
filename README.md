@@ -1,5 +1,5 @@
 # scalable-table
-Extremely fast native html table.
+Extremely fast native html table implemented as an angular directive.
 
 ## Quickstart
 Add `scalable-table` for your project.

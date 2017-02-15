@@ -61,8 +61,6 @@ angular.module('scalable-table', [])
             var templateCell;
             var cellTitleFn;
 
-
-
             (templateHeaderPre = tElement[0].querySelector('scalable-table-header-pre')) && (templateHeaderPre = templateHeaderPre.innerHTML);
             (templateHeader    = tElement[0].querySelector('scalable-table-header'    )) && (templateHeader    = templateHeader   .innerHTML);
             (templateCell      = tElement[0].querySelector('scalable-table-cell'      )) && (templateCell      = templateCell     .innerHTML);
@@ -80,14 +78,11 @@ angular.module('scalable-table', [])
 
             return {
                 post: function(scope, elem, attrs) {
-                    console.log(scope.scalableTableColumns);
-
                     var destroyed = false;
 
                     $scope.$on('$destroy', function() {
                         destroyed = true;
                     });
-
 
                     var columnsCompileCompletely = {};
 

@@ -2,8 +2,6 @@ app.controller('MyController', ['$scope', '$http', '$rootScope', function ($scop
   window.scope = $scope;
   window.rootScope = $rootScope;
 
-  console.log(data);
-
   $scope.getData = function (offset, limit) {
     // should return promise which returns array
 
@@ -16,8 +14,6 @@ app.controller('MyController', ['$scope', '$http', '$rootScope', function ($scop
 
         return arr;
       });
-      console.log($scope.tableData);
-      console.log($scope.tableData.length);
 
       var _to = setTimeout(function () {
         clearTimeout(_to);
@@ -36,7 +32,6 @@ app.controller('MyController', ['$scope', '$http', '$rootScope', function ($scop
   };
 
   $scope.gotoFoo = function (key) {
-    console.log(key)
     return 1;
   }
 }]);

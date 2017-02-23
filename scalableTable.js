@@ -80,7 +80,7 @@ angular.module('scalable-table', [])
                 post: function(scope, elem, attrs) {
                     var destroyed = false;
 
-                    $scope.$on('$destroy', function() {
+                    scope.$on('$destroy', function() {
                         destroyed = true;
                     });
 

@@ -11,7 +11,7 @@
     <script src="js/app.js" language="javascript" type="text/javascript"></script>
     <script src="../scalableTable.js" language="javascript" type="text/javascript"></script>
     <script src="js/controller.js" language="javascript" type="text/javascript"></script>
-    <script src="js/data.js" language="javascript" type="text/javascript"></script>
+    <script src="data.js" language="javascript" type="text/javascript"></script>
 </head>
 <body ng-app="myProject">
 <div ng-controller="MyController" style="height: 100vh;">
@@ -20,7 +20,7 @@
             xxx-scalable-table-data="[[1,2],[3,4]]"
             scalable-table-data-fn="getData"
             scalable-table-data-length="length()"
-            scalable-table-columns="[{width:100, Name:'Name'},{width:100, Name:'E-mail'},{width:100, Name:'Company'}]"
+            scalable-table-columns="columns()"
             scalable-table-reset-data-on-events=""
             scalable-table-render-row-nums="false"
             scalable-table-reset-view="no"

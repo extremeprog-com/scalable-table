@@ -1,0 +1,23 @@
+{
+  "name": "scalable-table-example",
+  "homepage": "https://github.com/extremeprog-com/scalable-table",
+  "authors": [
+    "Liudmila Vasnetsova <trean.mi@gmail.com>"
+  ],
+  "description": "example",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.6.1",
+    "jquery": "^3.1.1",
+    "angular": "^1.6.1"
+  }
+}

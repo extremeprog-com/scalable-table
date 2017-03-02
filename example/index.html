@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scalable-table</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+    <script src="bower_components/angular/angular.min.js" language="javascript" type="text/javascript"></script>
+    <script src="bower_components/angular-route/angular-route.min.js" language="javascript" type="text/javascript"></script>
+
+    <script src="js/app.js" language="javascript" type="text/javascript"></script>
+    <script src="../scalableTable.js" language="javascript" type="text/javascript"></script>
+    <script src="js/controller.js" language="javascript" type="text/javascript"></script>
+    <script src="data.js" language="javascript" type="text/javascript"></script>
+</head>
+<body ng-app="myProject">
+<div ng-controller="MyController" style="height: 100vh;">
+    <scalable-table
+            scalable-table-defaults="{ cellWidth: 150, cellHeight: 32, cellSpacing: -1 }"
+            xxx-scalable-table-data="[[1,2],[3,4]]"
+            scalable-table-data-fn="getData"
+            scalable-table-data-length="length()"
+            scalable-table-columns="columns()"
+            scalable-table-reset-data-on-events=""
+            scalable-table-render-row-nums="false"
+            scalable-table-reset-view="no"
+            scalable-table-rerender="no"
+            scalable-table-reset-data="no"
+            scalable-table-export-goto="gotoFoo">
+    <scalable-table-header-pre>
+        <div class="calc-columns-column-wrapper">
+            {{column.Name}}
+            <span class="caret"></span>
+        </div>
+    </scalable-table-header-pre>
+
+    <scalable-table-header>
+        <div class="calc-columns-column-wrapper">
+            {{column.Name}}
+            <span class="caret"></span>
+        </div>
+    </scalable-table-header>
+
+    <scalable-table-cell scalable-table-cell-title="no">
+        {{ cell }}
+    </scalable-table-cell>
+    </scalable-table>
+</div>
+</body>
+</html>

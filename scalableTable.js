@@ -10,7 +10,7 @@ angular.module('scalable-table', [])
         '  .pinnedHeadContainer { width: 0; top: 0; bottom: 0; left: 0; position: absolute; overflow: hidden;}' +
         '  .pinnedheadArea      { width: 0; position: absolute; }' +
         '  .pinnedHeadArea > *  { position: absolute; opacity: 1; -webkit-transition: 0.5s; transition: 0.5s; }' +
-        '  .dataContainer { bottom: 0; left: 0; right: 0; position: absolute; overflow: hidden; }' +
+        '  .dataContainer { bottom: 0; left: 3em; right: 0; position: absolute; overflow: hidden; }' +
         '  .dataArea      { position: absolute; }' +
         '  .dataArea > *  { position: absolute; overflow: hidden;}' +
         '  .pinnedDataContainer { bottom: 0; left: 0; right: 0; position: absolute; overflow: hidden; }' +
